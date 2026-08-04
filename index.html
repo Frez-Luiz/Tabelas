@@ -5,11 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        thead{
+            background-color: rgb(192, 255, 234);
+        }
+        img{
+            width: 12%;
+            margin: auto;
+            display: block;
+        }
+
+    </style>
 </head>
 
 <body>
-    <h2>Churrasco Técnico</h2>
     <table border="1px">
+        <caption>Churrasco Técnico</caption>
         <thead>
             <th>Produto</th>
             <th>Preço</th>
@@ -51,8 +62,10 @@
         </tbody>
     </table>
 
-    <h2>Tabela | Agenda</h2>
+    <hr>
+
     <table border="2px">
+        <caption>Tabela | Agenda</caption>
         <thead>
             <tr>
                 <th> Nome </th>
@@ -96,6 +109,44 @@
                 <td> henriquesantos@gmail.com </td>
                 <td> Manoel Ribas </td>
             </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table border="1px">
+        <caption>Perfumaria</caption>
+        <thead>
+            <tr>
+                <th> Nome </th>
+                <th> Marca</th>
+                <th>Imagem</th>
+                <th> Preço</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr> 
+                <td> Asad Lattafa</td>
+                <td> Lattafa Perfumes</td>
+                <td> <img src="perfume1.webp" alt=""> </td>
+                <td>R$ 180,00</td>
+            </tr>
+
+              <tr> 
+                <td> Nautica Voyage</td>
+                <td> Nautica</td>
+                <td> <img src="perfume2.webp" alt=""> </td>
+                <td>R$ 110,00</td>
+            </tr>
+              
+            <tr> 
+                <td> Club de Nuit Intense Man </td>
+                <td> Armaf </td>
+                <td> <img src="perfume3.webp" alt=""> </td>
+                <td>R$ 350,00</td>
+            </tr>
+
+            
         </tbody>
     </table>
 
